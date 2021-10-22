@@ -2,20 +2,40 @@ body {
     background-image: url(./img/background-parrot.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: antiquewhite;
 }
 
 h1 {
     text-align: center;  
     text-decoration: underline;
+    color: antiquewhite;
 }
 
 h2 {
     text-decoration: underline;
+    color: antiquewhite;
+}
+
+p {
+    color: antiquewhite;
+}
+
+#span {
+    font-weight: bold;
+}
+
+#bekezdes {
+    font-style: italic;
+    text-align: justify;
 }
 
 img {
     width: 600px;
+}
+
+.menu {
+    color: aqua;
+    text-decoration: none;
+    list-style-type: square;
 }
 
 a {
@@ -25,3 +45,8 @@ a {
 a:link {
     color: blueviolet;
 }
+
+li {
+    list-style-type: decimal;
+}
+
