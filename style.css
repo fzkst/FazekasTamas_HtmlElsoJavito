@@ -19,8 +19,12 @@ p {
     color: antiquewhite;
 }
 
-#span {
+.vastag {
     font-weight: bold;
+}
+
+.hatter {
+    background-color: rgb(96, 167, 26);
 }
 
 #bekezdes {
@@ -50,3 +54,8 @@ li {
     list-style-type: decimal;
 }
 
+table th, td {
+    border: solid black 1px;
+    border-collapse: collapse;
+    width: 20%;
+}
