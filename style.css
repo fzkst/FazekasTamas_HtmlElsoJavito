@@ -54,8 +54,14 @@ li {
     list-style-type: decimal;
 }
 
-table th, td {
-    border: solid black 1px;
+table {
     border-collapse: collapse;
+}
+
+th, td {
+    border: solid 1px;
+
     width: 20%;
+    color: antiquewhite;
+    border-color: antiquewhite;
 }
